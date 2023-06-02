@@ -4,9 +4,9 @@ import BlurCircularIcon from '@mui/icons-material/BlurCircular';
 import { Box, Typography, useTheme } from "@mui/material";
 import FlexBetween from "@/components/FlexBetween.tsx";
 
-type Props = {}
+// type Props = {}
 
-const Navbar = (props: Props) => {
+const Navbar = (/* props: Props */) => {
   const { palette } = useTheme();
   const [selected, setSelected] = useState("dashboard")
 
