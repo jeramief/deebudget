@@ -465,7 +465,7 @@ export const kpis = [
   },
 ];
 
-/* export */ const products = [
+export const products = [
   {
     _id: "63bf7ac9f03239e002001600",
     price: "$43.41",
@@ -1606,7 +1606,7 @@ export const kpis = [
   },
 ];
 
-/* export */ const transactions = [
+export const transactions = [
   {
     _id: "63bf7ccef03239e002001606",
     amount: "$154.37",

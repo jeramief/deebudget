@@ -1,7 +1,7 @@
 // const express = require("express");
 // const KPI = require("../models/KPI");
-import express from "express"
-import KPI from "../models/KPI.js"
+import express from "express";
+import KPI from "../models/KPI.js";
 
 const router = express.Router();
 
@@ -10,8 +10,8 @@ router.get("/kpis", async (req, res) => {
     const kpis = await KPI.find();
     res.status(200).json(kpis);
   } catch (err) {
-    res.status(404).json({ message: err.message })
+    res.status(404).json({ message: err.message });
   }
 });
 
-export default router
+export default router;
