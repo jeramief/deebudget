@@ -145,7 +145,7 @@ const Row1 = () => {
       </DashboardBox>
 
     <DashboardBox gridArea="b">
-    <BoxHeader
+      <BoxHeader
         title="Profits and Revenue"
         subtitle="top line represents revenue, bottom line represents expenses"
         sideText="+4%"
