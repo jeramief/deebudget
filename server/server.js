@@ -1,13 +1,3 @@
-// const express = require("express");
-// const bodyParser = require("body-parser");
-// const mongoose = require("mongoose");
-// const cors = require("cors");
-// const dotenv = require("dotenv");
-// const helmet = require("helmet");
-// const morgan = require("morgan");
-// const kpiRoutes = require("./routes/kpi");
-// const KPI = require("./models/KPI.js");
-// const { kpis } = require("./data/data.js")
 import express from "express";
 import bodyParser from "body-parser";
 import mongoose from "mongoose";
@@ -56,10 +46,10 @@ mongoose
     })
 
     // ADD DATA ONE TIME ONLY OR AS NEEDED
-    await mongoose.connection.db.dropDatabase();
-    KPI.insertMany(kpis);
-    Product.insertMany(products);
-    Transaction.insertMany(transactions);
+    // await mongoose.connection.db.dropDatabase();
+    // KPI.insertMany(kpis);
+    // Product.insertMany(products);
+    // Transaction.insertMany(transactions);
 
   })
   .catch((err) => console.log(`${err} did not connect`));

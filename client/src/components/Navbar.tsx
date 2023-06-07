@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom"
 import BlurCircularIcon from '@mui/icons-material/BlurCircular';
 import { Box, Typography, useTheme } from "@mui/material";
-import FlexBetween from "@/components/FlexBetween.tsx";
+import FlexBetween from "@/components/FlexBetween";
 
 // type Props = {}
 
@@ -17,7 +17,7 @@ const Navbar = (/* props: Props */) => {
       <FlexBetween gap="0.75rem">
         <BlurCircularIcon sx={{ fontSize: "28px" }}/>
         <Typography variant="h4" fontSize="16px">
-          JForbes Financial
+          DeeBudget
         </Typography>
       </FlexBetween>
 
