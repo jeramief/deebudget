@@ -56,10 +56,10 @@ mongoose
     })
 
     // ADD DATA ONE TIME ONLY OR AS NEEDED
-    // await mongoose.connection.db.dropDatabase();
-    // KPI.insertMany(kpis);
-    // Product.insertMany(products);
-    // Transaction.insertMany(transactions);
+    await mongoose.connection.db.dropDatabase();
+    KPI.insertMany(kpis);
+    Product.insertMany(products);
+    Transaction.insertMany(transactions);
 
   })
   .catch((err) => console.log(`${err} did not connect`));

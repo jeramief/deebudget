@@ -3,8 +3,9 @@ import {createTheme} from "@mui/material/styles";
 import {themeSettings} from "./theme";
 import {Box, CssBaseline, ThemeProvider} from "@mui/material";
 import {BrowserRouter, Route, Routes} from "react-router-dom";
-import Navbar from "@/components/Navbar.tsx";
-import Dashboard from "@/scenes/dashboard"
+import Navbar from "@/components/Navbar";
+import Dashboard from "@/scenes/dashboard";
+import Predictions from "@/scenes/predictions"
 
 function App() {
   const theme = useMemo(() => createTheme(themeSettings), [])
@@ -21,7 +22,7 @@ function App() {
             />
             <Route
               path="/predictions"
-              element={<div>predictions page</div>}
+              element={<Predictions />}
             />
           </Routes>
         </Box>

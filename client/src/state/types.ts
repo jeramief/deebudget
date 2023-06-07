@@ -41,7 +41,6 @@ export interface GetProductsResponse {
   price: number;
   expense: number;
   transactions: Array<string>;
-  dailyData: Array<Day>;
   createdAt: string;
   updatedAt: string;
 }
@@ -53,7 +52,6 @@ export interface GetTransactionsResponse {
   buyer: string;
   amount: number;
   productIds: Array<string>;
-  dailyData: Array<Day>;
   createdAt: string;
   updatedAt: string;
 }
