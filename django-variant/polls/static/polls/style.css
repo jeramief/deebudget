@@ -1,0 +1,9 @@
+body {
+  background: white
+    url("https://static.djangoproject.com/img/fundraising-heart.cd6bb84ffd33.svg")
+    no-repeat;
+}
+
+li a {
+  color: green;
+}
