@@ -34,6 +34,7 @@ INSTALLED_APPS = [
     # "polls.apps.PollsConfig",
     "loanees.apps.LoaneesConfig",
     "loans.apps.LoansConfig",
+    "payments.apps.PaymentsConfig",
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",
